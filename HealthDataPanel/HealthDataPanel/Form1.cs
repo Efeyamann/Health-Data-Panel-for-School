@@ -75,7 +75,13 @@ namespace HealthDataPanel
             ChartArea alan = grafik.ChartAreas[0];
             alan.AxisX.MajorGrid.LineColor = Color.LightGray;
             alan.AxisY.MajorGrid.LineColor = Color.LightGray;
+            alan.AxisY.MajorGrid.LineColor = Color.LightGray;
             alan.AxisX.LabelStyle.Enabled = true;
+            
+            alan.AxisY.Minimum = double.NaN;
+            alan.AxisY.Maximum = double.NaN;
+            alan.AxisY.Interval = double.NaN;
+            alan.AxisY.IsStartedFromZero = true;
 
             Series seri = new Series("Veri");
             seri.ChartType = SeriesChartType.Line;
@@ -94,6 +100,7 @@ namespace HealthDataPanel
             }
 
             grafik.Series.Add(seri);
+            alan.RecalculateAxesScale();
         }
 
         private void GrafikBaslikla()
