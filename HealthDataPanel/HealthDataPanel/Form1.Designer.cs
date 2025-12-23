@@ -62,15 +62,11 @@
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
-            // splitContainer1.Panel1
-            // 
-            //this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
-            // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer1.Size = new System.Drawing.Size(1402, 627);
-            this.splitContainer1.SplitterDistance = 748;
+            this.splitContainer1.Size = new System.Drawing.Size(1380, 615);
+            this.splitContainer1.SplitterDistance = 736;
             this.splitContainer1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -88,7 +84,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(650, 627);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(640, 615);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // chartAnne
@@ -104,7 +100,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartAnne.Series.Add(series1);
-            this.chartAnne.Size = new System.Drawing.Size(319, 307);
+            this.chartAnne.Size = new System.Drawing.Size(314, 301);
             this.chartAnne.TabIndex = 0;
             this.chartAnne.Text = "chart1";
             // 
@@ -115,13 +111,13 @@
             this.chartHIV.Dock = System.Windows.Forms.DockStyle.Fill;
             legend2.Name = "Legend1";
             this.chartHIV.Legends.Add(legend2);
-            this.chartHIV.Location = new System.Drawing.Point(3, 316);
+            this.chartHIV.Location = new System.Drawing.Point(3, 310);
             this.chartHIV.Name = "chartHIV";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chartHIV.Series.Add(series2);
-            this.chartHIV.Size = new System.Drawing.Size(319, 308);
+            this.chartHIV.Size = new System.Drawing.Size(314, 302);
             this.chartHIV.TabIndex = 1;
             this.chartHIV.Text = "chart2";
             // 
@@ -132,13 +128,13 @@
             this.chartBebek.Dock = System.Windows.Forms.DockStyle.Fill;
             legend3.Name = "Legend1";
             this.chartBebek.Legends.Add(legend3);
-            this.chartBebek.Location = new System.Drawing.Point(328, 3);
+            this.chartBebek.Location = new System.Drawing.Point(323, 3);
             this.chartBebek.Name = "chartBebek";
             series3.ChartArea = "ChartArea1";
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             this.chartBebek.Series.Add(series3);
-            this.chartBebek.Size = new System.Drawing.Size(319, 307);
+            this.chartBebek.Size = new System.Drawing.Size(314, 301);
             this.chartBebek.TabIndex = 2;
             this.chartBebek.Text = "chart3";
             // 
@@ -149,13 +145,13 @@
             this.chartTB.Dock = System.Windows.Forms.DockStyle.Fill;
             legend4.Name = "Legend1";
             this.chartTB.Legends.Add(legend4);
-            this.chartTB.Location = new System.Drawing.Point(328, 316);
+            this.chartTB.Location = new System.Drawing.Point(323, 310);
             this.chartTB.Name = "chartTB";
             series4.ChartArea = "ChartArea1";
             series4.Legend = "Legend1";
             series4.Name = "Series1";
             this.chartTB.Series.Add(series4);
-            this.chartTB.Size = new System.Drawing.Size(319, 308);
+            this.chartTB.Size = new System.Drawing.Size(314, 302);
             this.chartTB.TabIndex = 3;
             this.chartTB.Text = "chart4";
             // 
@@ -163,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1402, 627);
+            this.ClientSize = new System.Drawing.Size(1380, 615);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
             this.Text = "Form1";
